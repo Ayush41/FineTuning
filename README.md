@@ -1,4 +1,4 @@
-# 🧠 finetune
+# 🧠 FineTune
 
 **finetune** is an open-source research project focused on **fine-tuning Small Language Models (SLMs)** on **custom datasets** — locally and efficiently — using an **NVIDIA RTX 3040 GPU**.  
 The goal of this project is to **benchmark and compare fine-tuning performance** across different SLM architectures while developing an open research paper on the findings.
@@ -24,3 +24,27 @@ The goal of this project is to **benchmark and compare fine-tuning performance**
 - Reproducible results with config-based setups.
 
 ---
+
+## 🧠 Research Focus
+
+| Model | Params | Dataset | Fine-tuning Method | GPU VRAM | Objective |
+|--------|---------|----------|--------------------|-----------|------------|
+| Llama |
+| Phi-2 |
+| Mistral |
+| Gemma |
+
+This project aims to analyze:
+- **Training stability** with low-VRAM GPUs  
+- **Output quality** vs. model size  
+- **Fine-tuning cost and runtime**  
+- **Scalability for local research setups**
+
+---
+
+## 🛠️ Setup & Installation
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/yourusername/finetune.git
+cd finetune
